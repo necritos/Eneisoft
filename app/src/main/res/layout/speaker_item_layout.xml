@@ -3,19 +3,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_list"
+    >
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:padding="2dp"
+        >
 
         <com.github.siyamed.shapeimageview.HexagonImageView
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="4dp"
-            app:borderWidth="3dp"
-
+            app:borderWidth="2dp"
+            android:src="@drawable/speaker1"
+            app:borderColor="@color/background"
             android:layout_marginRight="10dp"
             android:id="@+id/iv_photo"
             />
@@ -23,19 +28,26 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            >
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:id="@+id/tv_name" />
+                style="@style/TextList"
+                android:layout_height="0dp"
+                android:text="@string/name_speaker"
+                android:layout_weight="1"
+                android:id="@+id/tv_name"
+                android:textSize="18sp"
+                 />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:id="@+id/tv_description" />
+                style="@style/TextList"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="@string/description_speaker"
+                android:id="@+id/tv_description"
+                android:gravity="center"
+                 />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -4,5 +4,12 @@
     <string name="app_name">Eneisoft</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="name_speaker">Name Speaker</string>
+    <string name="description_speaker">Description Speescription ription Speaker Description Speaker Description SpeakerDescription Speakerv</string>
+    <string name="title_ninja">Ninja Battle !!</string>
+    <string name="description_ninja">El concurso de programación competitiva está basado en concursos como el de la ACM ICPC, Facebook Hacker Cup, Google Code Jam, donde equipos solucionan problemas algorítmicos en un tiempo determinado.</string>
+    <string name="title_jam">Game Jam</string>
+    <string name="description_jam">Reunión de artistas, músicos, programadores, científicos e interesados con el único fin de crear un videojuego original e innovador, en un tiempo de 48 horas.</string>
+    <string name="inscribirse">Inscribirse!</string>
 
 </resources>
